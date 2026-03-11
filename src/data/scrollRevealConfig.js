@@ -37,7 +37,7 @@ export const targetElements = [
     },
   },
   {
-    element: ".about-wrapper__info",
+    element: ".about-wrapper__info, .project-wrapper__text",
     animation: {
       delay: 1000,
       origin: window.innerWidth > 768 ? "left" : "bottom",
